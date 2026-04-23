@@ -1,6 +1,6 @@
-# School Management System – Development Plan
+# ✅ School Management System – Development Plan
 
-## Project Overview
+## 🎯 Project Overview
 This project is a **School Management System** built with **ASP.NET Core MVC** for a **small high school**.
 The goal is to serve as a **learning project** while following **real-world architecture and workflows**.
 
@@ -31,7 +31,7 @@ The goal is to serve as a **learning project** while following **real-world arch
 
 ---
 
-## Phase 0 – Project Preparation & Planning
+## 🧱 Phase 0 – Project Preparation & Planning
 
 **Goal:** Establish shared understanding and repository structure
 
@@ -46,7 +46,7 @@ The goal is to serve as a **learning project** while following **real-world arch
 
 ---
 
-## Phase 1 – Project Setup & Authentication
+## 🏗 Phase 1 – Project Setup & Authentication
 
 **Goal:** Running application with secure login and role-based access
 
@@ -67,7 +67,7 @@ The goal is to serve as a **learning project** while following **real-world arch
 
 ---
 
-## Phase 2 – Academic Year Management
+## 📅 Phase 2 – Academic Year Management
 
 **Goal:** Academic Year drives all academic data
 
@@ -87,7 +87,7 @@ The goal is to serve as a **learning project** while following **real-world arch
 
 ---
 
-## Phase 3 – Core People Management
+## 👥 Phase 3 – Core People Management
 
 ### Students
 
@@ -130,7 +130,7 @@ The goal is to serve as a **learning project** while following **real-world arch
 
 ---
 
-## Phase 4 – School Structure
+## 🏫 Phase 4 – School Structure
 
 ### Classes
 
@@ -161,7 +161,7 @@ The goal is to serve as a **learning project** while following **real-world arch
 
 ---
 
-## Phase 5 – School Hours & Timetable
+## 🕘 Phase 5 – School Hours & Timetable
 
 ### Time Slots (Hours)
 
@@ -191,7 +191,7 @@ The goal is to serve as a **learning project** while following **real-world arch
 
 ---
 
-## Phase 6 – Student Enrollment
+## 🎓 Phase 6 – Student Enrollment
 
 **Goal:** Assign students to classes per academic year
 
@@ -207,7 +207,7 @@ The goal is to serve as a **learning project** while following **real-world arch
 
 ---
 
-## Phase 7 – Attendance Management
+## ✅ Phase 7 – Attendance Management
 
 **Goal:** Attendance tied to scheduled lessons
 
@@ -225,7 +225,7 @@ The goal is to serve as a **learning project** while following **real-world arch
 
 ---
 
-## Phase 8 – Exams & Grades
+## 📝 Phase 8 – Exams & Grades
 
 ### Exams
 
@@ -250,7 +250,7 @@ The goal is to serve as a **learning project** while following **real-world arch
 
 ---
 
-## Phase 9 – Dashboards
+## 📊 Phase 9 – Dashboards
 
 ### Admin Dashboard
 - Active academic year display
@@ -277,7 +277,7 @@ The goal is to serve as a **learning project** while following **real-world arch
 
 ---
 
-## Phase 10 – Security, Validation & Polish
+## 🔐 Phase 10 – Security, Validation & Polish
 
 **Goal:** Production-quality behavior
 
@@ -292,7 +292,7 @@ The goal is to serve as a **learning project** while following **real-world arch
 
 ---
 
-## Phase 11 – Testing & Documentation
+## 🧪 Phase 11 – Testing & Documentation
 
 **Goal:** Stability and maintainability
 
@@ -307,7 +307,7 @@ The goal is to serve as a **learning project** while following **real-world arch
 
 ---
 
-## Done Criteria
+## 🚀 Done Criteria
 - All MVP features functional
 - No critical bugs
 - Academic-year data isolation enforced
