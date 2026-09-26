@@ -176,7 +176,7 @@ Install the following software:
 ```bash
 git clone https://github.com/WeCoders-IT/SchoolManagementSystem.git
 cd SchoolManagementSystem
-
+```
 ---
 
 ## 📎 License
