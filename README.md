@@ -117,7 +117,8 @@ All academic data is scoped to the active academic year to reflect realistic sch
 ## 📄 Documentation
 
 - `DEVELOPMENT_PLAN.md` – full development roadmap and tasks
-- Wireframes – simple UI blueprints for all main pages
+- `DEVELOPMENT_STANDARDS.md` - define the coding, naming, repository, and collaboration standards 
+- `UI_WIREFRAMES.md` - Wireframes – simple UI blueprints for all main pages
 - GitHub Issues – used to track development progress
 
 ---
