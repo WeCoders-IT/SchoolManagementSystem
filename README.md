@@ -83,14 +83,25 @@ This project is suitable for:
 
 ## 🧱 Architecture Overview
 
-The project follows a **clean MVC architecture** with:
-- Controllers (thin, request handling)
-- Services (business logic)
-- Models (domain entities)
-- ViewModels (UI binding)
-- EF Core for persistence
+The application follows a layered MVC architecture designed to separate presentation, business logic, and data access concerns.
 
-All academic data is **scoped to the active academic year** to reflect realistic school workflows.
+### Layers
+
+- Controllers – Handle HTTP requests and responses
+- Services – Contain business logic and validation rules
+- Models – Domain entities and database objects
+- ViewModels – Data transfer between controllers and views
+- Data Layer – Entity Framework Core DbContext and configurations
+- SQL Server – Persistent data storage
+
+### Cross-Cutting Concerns
+
+- ASP.NET Identity for authentication and authorization
+- Role-based access control
+- Academic-year isolation
+- Validation and error handling
+
+All academic data is scoped to the active academic year to reflect realistic school administration workflows.
 
 ---
 
@@ -120,6 +131,51 @@ By working on this project, developers gain experience with:
 - Scheduling and conflict validation
 - Academic-year–driven business logic
 - Team-based project planning
+
+---
+
+## 🔄 Development Approach
+
+The project is developed using an incremental, phase-based approach.
+
+Development is organized into Epics, Features, and Tasks tracked through GitHub Projects and Issues.
+
+### Workflow
+
+1. Define requirements and acceptance criteria
+2. Break work into Features and Tasks
+3. Implement functionality in feature branches
+4. Review code and perform testing
+5. Merge into the main branch
+6. Update documentation and project status
+
+### Development Principles
+
+- Keep controllers thin
+- Place business logic in services
+- Use Entity Framework Core for data access
+- Apply role-based authorization throughout the system
+- Maintain academic-year data isolation
+- Follow consistent coding standards and naming conventions
+
+---
+
+## 🚀 Setup Instructions
+
+### Prerequisites
+
+Install the following software:
+
+- .NET SDK 9.0 (or latest supported version)
+- SQL Server
+- Visual Studio 2022 / VS Code
+- Git
+
+### Clone Repository
+
+```bash
+git clone https://github.com/WeCoders-IT/SchoolManagementSystem.git
+cd SchoolManagementSystem
 
 ---
 
